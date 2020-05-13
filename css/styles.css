@@ -297,7 +297,7 @@ background: none;
     }
 
 .page-section h2 {
-    color: #CC46;
+    color: #dbc59e;
 }
 
 .page-section p {
@@ -310,7 +310,7 @@ background: none;
 }
 
     .darkBg .fa {
-        color: #CC49;
+        color: #fb6c00;
     }
 /*--- Banner ----*/
 .banner-container {
@@ -433,6 +433,71 @@ color: beige;
 padding: 20px;
 margin: 0px;
 }
+
+/*gri*/
+/*-----------------------------------------------------------------------------------------*/
+.i {
+    grid-area: i;
+    grid-gap: 70px;
+}
+
+.t {
+    grid-area: t;
+    /*margin: auto;*/
+    grid-gap: 70px;
+}
+
+.grid {
+    display: grid;
+    /*grid-gap: 70px;*/
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 20px;
+}
+
+
+.box {
+    /*display: grid;*/
+    /*grid-gap: 10px;*/
+    /*grid-template-areas: "i t t t t";*/
+
+    /*margin-bottom: 5px;*/
+    /*margin-top: 5px;*/
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-right: 5px solid black;
+    /*column-gap: 10px;*/
+    padding: 20px;
+}
+
+@media (min-width: 600px) {
+    .box { grid-template-columns: repeat(2, 1fr); }
+}
+
+.witslogo {
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-right: 5px solid black;
+    /*padding-right: 5px;*/
+}
+
+.warwicklogo {
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 5px solid black;
+    padding-right: 20px;
+}
+/*-----------------------------------------------------------------------------------------*/
+
 /*parlex*/
 .bg-parlex {
 padding-top: 0px;
@@ -745,7 +810,7 @@ nav#filter {
         width: 100%;
         left: 0;
         top: 0;
-        color: rgba(220, 220, 220);
+        color: rgb(220, 139, 128);
     }
 
 .fancybox-overlay {
