@@ -1,2 +1,5 @@
 /.idea/
 testTableHTML.html
+/public/
+.firebaserc
+/.firebase/

@@ -954,6 +954,26 @@ body {
     margin-right: 6px;
 }
 
+.first {
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    font-size: 22px;
+}
+.second {
+    border-top: 1px solid #000000;
+}
+.tableCert {
+    border-collapse: collapse;
+    margin-left:auto; margin-right:auto;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    border-spacing: 10px;
+}
+#certificationsTable {
+    background-color: #feffe9;
+}
+
 footer {
     border-top: 1px solid #e5e5e5;
     padding: 45px 0;
@@ -1012,7 +1032,7 @@ footer {
     .navbar-inverse .navbar-nav > li > a {  
         padding: 5px 12px !important;
         border-radius: 5px;
-        margin: 19px 0px;
+        margin: 10px 0px;
     }
 }
 
